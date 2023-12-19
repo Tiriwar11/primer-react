@@ -4,7 +4,7 @@ const Card = () => { // funcion flecha
     return ( // parte HTML
         <React.Fragment> 
             <h3>Hola Mundo</h3> 
-            <button>Yoder</button>
+            <button>Yoder dd</button>
             <p>Hola soy sebas</p>
 
         </React.Fragment>

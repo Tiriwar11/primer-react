@@ -16,13 +16,13 @@ const Login = () => {
                     <input type="password" placeholder='Contraseña' required />
                     <FaLock className="icon" />
                 </div>
-                <div className='renember-forgot'>
-                    <label><input type='checkbox'/>Recordar</label>
-                    <a href='#'> ¿Olvido Su contraseña? </a>
+                <div className='renember-forgot'>lost password? <samp>Click Here!</samp>
+                   
                 </div>
-
-                <button type="submit"> Login </button>
-                <button type="submit"> Sign Up </button>
+                <div className="Buttons">
+                <div className="submit"> Login </div>
+                <div className="submit"> Sign Up </div>
+                </div>
             </form>
         </div>
     );
